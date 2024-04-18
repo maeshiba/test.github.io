@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(218, 219, 223);
+    text-align: center;
+    display:block;
+    margin: auto;
+    width: 100%;
+    min-width: 550px;
+}
+#title{
+    font-size: 48px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#title h2{
+    font-size: 12px;
+}
+
+#button{
+    margin: 50px;
+}
+
+input[type="button"] {
+    -webkit-appearance: none;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 1px solid rgb(0, 122, 90);
+    color: rgb(0, 122, 90);
+    border-color: rgb(0, 122, 90);
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    padding: 8px;
+    /* font-size: 15px; */
+    border-radius: 4px;
+    height: 36px;
+    transition: all 80ms linear;
+    
+}
+input[type="button"]:hover{
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 8%);
+    background: rgba(230,230,230,1);
+}
+input[type="button"]:focus{
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 8%);
+    background: rgba(230,230,230,1);
+}
+
+.box26 {
+    position: relative;
+    margin: 50px;
+    padding: 0.5em 1em;
+    border: solid 3px rgb(0, 122, 90);
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background-color: rgb(218, 219, 223);
+    color: rgb(0, 122, 90);
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+dl{
+    overflow: auto;
+    height: 300px;
+}
+dt{
+    margin: auto;
+}
+time{
+    font-size: small;
+}
+dd{
+    margin: 10px;
+    border-bottom: dashed rgb(0, 122, 90);
+}
+.New_function::before{
+    content: "新機能";
+}
+.New_function{
+    background-color: rgb(248, 223, 114);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 1px 7px;
+    white-space: nowrap;
+    width: 80px;
+}
+
+.Bug_fixes::before{
+    content: "不具合修正";
+}
+.Bug_fixes{
+    background-color: rgb(220, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 1px 7px;
+    white-space: nowrap;
+    width: 80px;
+}
+
+.info::before{
+    content: "お知らせ";
+}
+.info{
+    background-color: rgb(0, 122, 90);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 1px 7px;
+    white-space: nowrap;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    font-size: xx-small;
+}
